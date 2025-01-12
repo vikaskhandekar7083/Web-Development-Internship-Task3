@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    background: linear-gradient(to right, #f5f9fa, #e8eff0);
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    margin: 0;
+}
+
+/* Card Styling */
+.converter-card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.title {
+    font-weight: bold;
+    color: #444;
+}
+
+/* Form Elements */
+.label {
+    font-weight: 500;
+    margin-bottom: 8px;
+    display: block;
+    color: #666;
+}
+
+.input-group input,
+select {
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.input-group input:focus,
+select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Buttons */
+.convert-btn {
+    background: #007bff;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    padding: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.convert-btn:hover {
+    background: #0056b3;
+}
+
+/* Result Card */
+.result-card {
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.result-value {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #444;
+}
+
+.result-unit {
+    font-size: 1.5rem;
+    color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .converter-card {
+        padding: 20px;
+    }
+
+    .result-value {
+        font-size: 2rem;
+    }
+}

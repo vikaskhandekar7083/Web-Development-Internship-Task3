@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container d-flex justify-content-center align-items-center min-vh-100">
+        <div class="converter-card">
+            <h1 class="text-center title mb-4">🌡️ Temperature Converter</h1>
+            <form id="conversionForm">
+                <div class="form-group">
+                    <label for="inputDegree" class="label">
+                        <i class="fas fa-thermometer-half"></i> Enter Temperature
+                    </label>
+                    <div class="input-group">
+                        <input type="number" class="form-control" id="inputDegree" placeholder="Temperature" required />
+                        <div class="input-group-append">
+                            <select id="selectInputDegreeType" class="form-control">
+                                <option value="C" selected>°C</option>
+                                <option value="F">°F</option>
+                                <option value="K">K</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="selectConversionType" class="label">
+                        <i class="fas fa-exchange-alt"></i> Convert To
+                    </label>
+                    <select id="selectConversionType" class="form-control">
+                        <option value="C">Celsius (°C)</option>
+                        <option value="F" selected>Fahrenheit (°F)</option>
+                        <option value="K">Kelvin (K)</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block convert-btn">
+                    Convert <i class="fas fa-arrow-right"></i>
+                </button>
+            </form>
+
+            <div class="result-card mt-4 text-center">
+                <h2 id="convertedDegree" class="result-value">--</h2>
+                <span id="convertedUnit" class="result-unit"></span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
