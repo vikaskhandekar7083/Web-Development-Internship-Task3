@@ -40,8 +40,8 @@ Welcome to the **Temperature Converter**, a sleek and responsive web application
   Contains the structure of the temperature converter app.
 - 🎨 **style.css**  
   Custom styles to make the app visually appealing and responsive.
-- 🖼️ **Assets**  
-  Includes any images or icons used in the design (if any).
+- 🖼️ **script.js**  
+  
 
 ---
 
@@ -63,3 +63,9 @@ I am thrilled to be part of the **Oasis Infobyte** team as a **Web Development a
 1. Clone this repository to your local machine:
    ```bash
    git clone https://github.com/your-username/Temperature-Converter.git
+
+📞 Contact Me
+
+LinkedIn: https://linkedin.com/in/vikas-khandekar-9233a9257
+
+GitHub: https://github.com/vikaskhandekar7083
